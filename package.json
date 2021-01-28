@@ -1,0 +1,35 @@
+{
+  "name": "forward-deeplink",
+  "license": "MIT",
+  "version": "0.1.0",
+  "description": "This repo fork of node-deeplink, Easily create an endpoint in your web server that redirects deep links to mobile apps",
+  "scripts": {
+    "fix:prettier": "prettier --write '**/*.{js,md,html}'",
+    "test:prettier": "prettier --list-different '**/*.{js,md,html}'",
+    "test": "npm run test:prettier && mocha test/test.js -t 4000"
+  },
+  "author": "Michael Derazon <mderazon@hotmail.com>",
+  "homepage": "https://github.com/ninjavungve/forward-deeplink",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ninjavungve/forward-deeplink.git"
+  },
+  "main": "lib/deeplink.js",
+  "dependencies": {
+    "html-inline": "^1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^8.2.1",
+    "prettier": "^2.2.1",
+    "zombie": "^6.1.4"
+  },
+  "keywords": [
+    "mobile",
+    "express",
+    "deeplink",
+    "deep-link",
+    "forward-deeplink"
+  ]
+}
