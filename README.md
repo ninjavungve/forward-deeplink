@@ -1,4 +1,4 @@
-# forward-deeplink [![Build Status](https://travis-ci.org/mderazon/forward-deeplink.svg?branch=master)](https://travis-ci.org/mderazon/forward-deeplink) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+# forward-deeplink [![Build Status](https://travis-ci.com/ninjavungve/forward-deeplink.svg?branch=master)](https://travis-ci.org/mderazon/forward-deeplink) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 > Easily create express endpoint to handle mobile deeplinks in your web server
 
